@@ -2,10 +2,12 @@
 some face recognition models based on GPU/CPU(intergrated with face detection and alignment)
 
 # Comparison
-| Baseline Model      | Original Accuracy | Finetune Using Normalization |
+| Baseline Model      | Accuracy(LFW) | GPU\CPU |Framework|Detection|alignment|
 | ------------------- |:-----------------:|:----------------------------:|
-| [Light CNN(MaxOut)](https://github.com/AlfredXiangWu/face_verification_experiment)   | 98.41%\*          |98.78%                        |
-| [Center Face(ResNet)](https://github.com/ydwen/caffe-face) | 99.03%            |99.21%                        |
+| [Facenet](https://github.com/davidsandberg/facenet)| 99.65%| GPU| Tensorflow|MTCNN|MTCNN
+| [Openface](https://github.com/cmusatyalab/openface)   | 92.92%          |both  |dlib+opencv, C++|dlib|dlib|
+| [Center Face(ResNet)](https://github.com/ydwen/caffe-face) | 99.03%            | gpu         |caffe|no|no|
+|[normface](https://github.com/happynear/NormFace)|used for improving| gpu|caffe|MTCNN|MTCNN|
 
 
 # GPU
