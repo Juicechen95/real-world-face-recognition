@@ -8,10 +8,10 @@ some face recognition models based on GPU/CPU(intergrated with face detection an
 | [Openface](https://github.com/cmusatyalab/openface)   | 99.63% in paper（92.92%）  |both  |dlib+opencv, C++|dlib|dlib|
 | [Center Face(ResNet)](https://github.com/ydwen/caffe-face) | 99.03%            | gpu         |caffe|no|no|
 |[normface](https://github.com/happynear/NormFace)|used for improving| gpu|caffe|MTCNN|MTCNN|
-|seetaface(https://github.com/seetaface/SeetaFaceEngine)|97.1%|cpu|no|yes|yes|
-|dlib(https://github.com/davisking/dlib-models)|99.38%|cpu|no|dlib|dlib|
+|[seetaface](https://github.com/seetaface/SeetaFaceEngine)|97.1%|cpu|no|yes|yes|
+|[dlib](https://github.com/davisking/dlib-models)|99.38%|cpu|no|dlib|dlib|
 
-Both Facenet and openface are the implementation of paper [facenet_2015](https://arxiv.org/pdf/1503.03832.pdf)
+Both Facenet and openface are the implementation of paper [facenet_2015](https://arxiv.org/pdf/1503.03832.pdf). In openface, the real accuracy is lower because of the bad detection of dlib.
 
 
 # GPU
