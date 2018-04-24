@@ -3,7 +3,7 @@ some face recognition models based on GPU/CPU(intergrated with face detection an
 
 # Comparison
 | Baseline Model      | Accuracy(LFW) | GPU\CPU |Framework|Detection|alignment|
-| ------------------- |:-----------------:|:----------------------------:|
+| ------------------- |:-----------------:|:-----------:|:-----------------:|:-----------------:|:-----------------:|
 | [Facenet](https://github.com/davidsandberg/facenet)| 99.65%| GPU| Tensorflow|MTCNN|MTCNN
 | [Openface](https://github.com/cmusatyalab/openface)   | 92.92%          |both  |dlib+opencv, C++|dlib|dlib|
 | [Center Face(ResNet)](https://github.com/ydwen/caffe-face) | 99.03%            | gpu         |caffe|no|no|
