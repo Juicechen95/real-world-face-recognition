@@ -14,22 +14,15 @@ some face recognition models based on GPU/CPU(intergrated with face detection an
 Both Facenet and openface are the implementation of paper [facenet_2015](https://arxiv.org/pdf/1503.03832.pdf). In openface, the real accuracy is lower because of the bad detection of dlib.
 
 
-# GPU
- Facenet (Tensorflow)https://github.com/davidsandberg/facenet
+# Recommandation
+
+If you are under computation-limited environment(cpu only or embedded system), seetaface(v1 and v2) and dlib are prefered. Although they can not provide best accuracy, the running speed is fast enough.
+
+If you have GPUs, the Facenet are recommanded. Beacause it is highly acdamical and technical supported.
  
- center face(resnet) https://github.com/ydwen/caffe-face
+ # train and test with facenet
  
- normface https://github.com/happynear/NormFace
- 
- open face (https://github.com/cmusatyalab/openface)
- 
- 
- 
- # CPU
- 
- seetaface (https://github.com/seetaface/SeetaFaceEngine)
- 
- dlib (https://github.com/davisking/dlib-models)
+
  
  # Dataset
  
