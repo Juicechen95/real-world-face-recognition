@@ -20,7 +20,10 @@ If you are under computation-limited environment(cpu only or embedded system), s
 
 If you have GPUs, the Facenet are recommanded. Beacause it is highly acdamical and technical supported.
  
- # train and test with facenet
+ # train with Facenet
+ [classifier training Inception-ResNet-v1](https://github.com/davidsandberg/facenet/wiki/Classifier-training-of-inception-resnet-v1) 
+ 
+ # test with Facenet
  
 
  
