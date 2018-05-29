@@ -24,7 +24,7 @@ If you have GPUs, the Facenet are recommanded. Beacause it is highly acdamical a
  [classifier training Inception-ResNet-v1](https://github.com/davidsandberg/facenet/wiki/Classifier-training-of-inception-resnet-v1) 
  
  # test with Facenet
- 
+ [validate on LFW](https://github.com/davidsandberg/facenet/wiki/Validate-on-LFW)
 
  
  # Dataset
